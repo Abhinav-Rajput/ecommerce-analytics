@@ -11,7 +11,7 @@ libraryDependencies ++= Seq(
   // Core Spark dependencies - these two cover 95% of interview scenarios
   "org.apache.spark" %% "spark-core" % "3.4.1",
   "org.apache.spark" %% "spark-sql" % "3.4.1",
-
+  "com.typesafe" % "config" % "1.4.2",
   // Testing framework for practicing coding challenges
   "org.scalatest" %% "scalatest" % "3.2.15" % Test
 )
